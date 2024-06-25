@@ -1,0 +1,110 @@
+.app-container {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 300px;
+}
+
+.input-group {
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.input-group label {
+    margin-bottom: 5px;
+}
+
+.input-group input {
+    padding: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.submit-button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 100px;
+    text-align: center;
+}
+
+.submit-button:hover {
+    background-color: #0056b3;
+}
+
+.user-table {
+    width: 100%;
+    max-width: 600px; 
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.user-table th, .user-table td {
+    border: 1px solid #ddd;
+    padding: 5px;
+    text-align: left;
+}
+
+.user-table th {
+    background-color: #f2f2f2;
+}
+
+.user-table th:nth-child(4) {
+    width: 30%; 
+}
+
+.user-table td:nth-child(4) {
+    display: flex;
+    justify-content: space-between;
+}
+
+.edit-button, .delete-button {
+    padding: 5px 10px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.edit-button {
+    background-color: #007bff;
+    margin-right: 5px;
+}
+
+.edit-button:hover {
+    background-color: #0056b3;
+}
+
+.delete-button {
+    background-color: #ff4d4d;
+}
+
+.delete-button:hover {
+    background-color: #cc0000;
+}
+
+
+.user-table td:nth-child(4) {
+    display: flex;
+    justify-content: space-around; 
+}
+
+.edit-button, .delete-button {
+    padding: 5px 10px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin: 0 1%; 
+}
