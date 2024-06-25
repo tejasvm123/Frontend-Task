@@ -12,17 +12,18 @@ const InputHandler = ({ onSubmit, editMode, editedUser }) => {
       setEmail(editedUser.email);
     }
   }, [editMode, editedUser]);
-
+  
   const handleSubmit = (e) => {
     e.preventDefault();
     if (!name || !validateEmail(email)) {
       alert("Please enter a valid name and email.");
-      return;5
+      return;
     }
     onSubmit({ name, email });
     setName("");
     setEmail("");
   };
+  
 
   const validateEmail = (email) => {
     const re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
